@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const teamName = "MLSC. Behold our website and awesomeness.";
+    const teamName = "Tombraider";
 
     const header = document.getElementById('welcome-header');
     if (header) {
