@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #0078D7, #00B294);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+#welcome-header {
+    font-size: 3rem;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+}
+
+.product-image {
+    max-width: 80%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    margin-top: 2rem;
+    border: 3px solid white;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    color: transparent;
+}
+
+.footer-link:hover {
+    color: white;
+}
